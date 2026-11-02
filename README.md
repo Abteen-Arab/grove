@@ -17,6 +17,8 @@ Open **http://localhost:5173**. The app fills a phone viewport and uses a phone-
 
 ## GitHub Pages
 
+[Open Grove](https://abteen-arab.github.io/grove/) · [Design schematic](https://abteen-arab.github.io/grove/schematic.html)
+
 The Pages workflow in `.github/workflows/pages.yml` publishes the app whenever `main` changes. It packages only the web app, illustrations, and design schematic. Local launchers, tests, and project notes are excluded from the deployed site.
 
 To preview that exact deployment package locally:
