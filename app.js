@@ -1,5 +1,5 @@
-import { STORAGE_KEY, APP_LIST, SPECIES, localDate, dateBefore, clamp, duration, number, initialState, countedScreen, improvement, ensureToday, loadState, trackedMetrics, habitatState, reconcileEcosystem, startDemoSync, syncDemo, stopDemoSync, beginSession, pauseSession, resumeSession, finishSession, sessionElapsed, sessionMinutesForDate } from './model.js';
-import { renderHabitatScene, renderSpeciesIcon } from './scene.js';
+import { STORAGE_KEY, APP_LIST, SPECIES, localDate, dateBefore, clamp, duration, number, initialState, countedScreen, improvement, ensureToday, loadState, trackedMetrics, habitatState, reconcileEcosystem, startDemoSync, syncDemo, stopDemoSync, beginSession, pauseSession, resumeSession, finishSession, sessionElapsed, sessionMinutesForDate } from './model.js?v=2';
+import { renderHabitatScene, renderSpeciesIcon } from './scene.js?v=2';
 
 const $ = selector => document.querySelector(selector);
 const screen = $('#screen'), sheet = $('#sheet');
