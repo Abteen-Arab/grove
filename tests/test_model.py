@@ -121,7 +121,7 @@ class ModelTests(unittest.TestCase):
         self.assertEqual(self.value("[recovered.days[localDate()].steps, recovered.days[localDate()].closed, countedScreen(recovered.days[localDate()], recovered.excluded)]"), [0, False, 0])
 
     def test_invalid_or_unavailable_storage_recovers(self):
-        self.assertEqual(self.value("loadState({ getItem: () => '{broken' }).version"), 1)
+        self.assertEqual(self.value("loadState({ getItem: () => '{broken' }).version"), 2)
         self.assertEqual(self.value("loadState({ getItem: () => JSON.stringify({version: 0}) }).goals.steps"), 8000)
         self.assertEqual(self.value("loadState({ getItem: () => { throw new Error('unavailable'); } }).rewards.trees"), 8)
 

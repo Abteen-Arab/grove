@@ -9,7 +9,7 @@ from urllib.parse import unquote, urlsplit
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PUBLIC_FILES = ("index.html", "schematic.html", "style.css", "app.js", "model.js")
+PUBLIC_FILES = ("index.html", "schematic.html", "style.css", "app.js", "model.js", "scene.js")
 REQUIRED_ASSETS = ("icon.svg", "grove.svg", "sapling.svg", "pine.svg", "blossom.svg")
 
 
